@@ -1,24 +1,22 @@
-# README
+# Rails bootstrap with ajax
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This app use for rails bootstrep with ajax use.
 
-Things you may want to cover:
 
-* Ruby version
+# Prerequisites
+  * Rails 5.2+
+  * Ruby 2.3.1+
+  * PostgreSQL 10.10
+  * bootstrap 3.4.1
 
-* System dependencies
+# Installing & Serving
+  1. install dependencies
 
-* Configuration
+    `bundle install`
 
-* Database creation
+  2. Create db and migrate
 
-* Database initialization
+    `rake db:create`
+    `rake db:migrate`
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Then run server.
