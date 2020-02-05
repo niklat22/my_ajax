@@ -14,3 +14,11 @@ default: &default
 development:
   <<: *default
   database: development_my_ajax
+
+test:
+  <<: *default
+  database: test_my_ajax
+
+production:
+  <<: *default
+  database: production_my_ajax
