@@ -12,11 +12,11 @@ This app use for rails bootstrep with ajax use.
 # Installing & Serving
   1. install dependencies
 
-    `bundle install`
+    bundle install
 
   2. Create db and migrate
 
-    `rake db:create`
-    `rake db:migrate`
+    rake db:create
+    rake db:migrate
 
 Then run server.
